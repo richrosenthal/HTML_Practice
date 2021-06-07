@@ -41,24 +41,33 @@
 
 <!-- Sammple form for reference -->
 <h2>Sample Form</h2>
-<form class="" action="index.html" method="post">
+<form class="" action="/tacos" method="post">
   <p>
     <label for="username">Username</label>
-    <input type="text" name="" placeholder="username" value="" id="username">
+    <input type="text" name="username" placeholder="username" value="" id="username">
   </p>
   <p>
     <label for="password">Password</label>
-    <input type="password" name="" placeholder="password" value="" id="password">
+    <input type="password" name="password" placeholder="password" value="" id="password">
   </p>
   <p>
     <label for="color">Color</label>
-    <input type="color" name="" value="" id="color">
+    <input type="color" name="color" value="" id="color">
   </p>
   <p>
     <label for="number">Choose Number</label>
-    <input type="number" name="" placeholder="enter a number "value="" id="number">
+    <input type="number" name="number" placeholder="enter a number "value="" id="number">
   </p>
-  <button type="button" name="button">Submit</button>
+  <button type="submit" name="button">Submit</button>
+
+</form>
+<br>
+
+<!-- Sample form showing how easy it is to link to outside resource
+in this case we can create a form that will submit its results to youtube. -->
+<form action="https://www.youtube.com/results">
+  <input type="text" name="search_query" value="">
+  <button>Search Youtube</button>
 
 </form>
 
