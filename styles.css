@@ -6,3 +6,8 @@ h1 {
   font-size: 40px;
   letter-spacing: 20px;
 }
+
+/* psuedo class for frog. The element is <span class="frog"> in index.html */
+.frog:hover {
+  text-decoration: purple wavy underline;
+}
